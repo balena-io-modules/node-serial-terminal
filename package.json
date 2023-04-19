@@ -1,0 +1,31 @@
+{
+  "name": "@balena/node-serial-terminal",
+  "version": "1.0.0",
+  "description": "package to simplify executing and retrieving the response from commands on a linux shell over serial",
+  "main": "build/index.js",
+  "files": [
+    "build/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balena-io-modules/node-serial-terminal"
+  },
+  "scripts": {
+    "build": "npm install && tsc --version  && tsc",
+    "test": "echo \"No test specified\" && exit 0",
+    "prepack": "npm run build"
+  },
+  "engines": {
+    "node": ">=16.0.0 < 19"
+  },
+  "author": "Ryan Cooke (https://github.com/rcooke-warwick)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "serialport": "^10.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  }
+}
