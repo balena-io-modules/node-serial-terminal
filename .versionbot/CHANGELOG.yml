@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Add id-token: write permission for NPM OIDC publishing"
+      hash: 908e746181b744bb4b874e080b5a3e4ea03b46b6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.0.3
+  title: ""
+  date: 2026-02-19T02:02:46.598Z
+- commits:
     - subject: initial commit
       hash: c7ee9542c5534ec7dc5d636575e981db1d265557
       body: ""
